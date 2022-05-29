@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_b_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="paquete_alu" />
+            <top_module name="paquete_procesador" />
+            <top_module name="paquete_uc" />
+            <top_module name="test_b" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="185280fs"></ZoomStartTime>
+      <ZoomEndTime time="192901fs"></ZoomEndTime>
+      <Cursor1Time time="190860fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/test_b/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_b/clr" type="logic">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_b/rclr" type="logic">
+      <obj_property name="ElementShortName">rclr</obj_property>
+      <obj_property name="ObjectShortName">rclr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_b/aux_z3" type="logic">
+      <obj_property name="ElementShortName">aux_z3</obj_property>
+      <obj_property name="ObjectShortName">aux_z3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_b/aux_z2" type="logic">
+      <obj_property name="ElementShortName">aux_z2</obj_property>
+      <obj_property name="ObjectShortName">aux_z2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_b/sp" type="array">
+      <obj_property name="ElementShortName">sp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sp[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_b/aux_rn" type="array">
+      <obj_property name="ElementShortName">aux_rn[8:0]</obj_property>
+      <obj_property name="ObjectShortName">aux_rn[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_b/pc" type="array">
+      <obj_property name="ElementShortName">pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_b/aux_ro" type="array">
+      <obj_property name="ElementShortName">aux_ro[15:0]</obj_property>
+      <obj_property name="ObjectShortName">aux_ro[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_b/instruccion" type="array">
+      <obj_property name="ElementShortName">instruccion[24:0]</obj_property>
+      <obj_property name="ObjectShortName">instruccion[24:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_b/readData1" type="array">
+      <obj_property name="ElementShortName">readData1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">readData1[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_b/readData2" type="array">
+      <obj_property name="ElementShortName">readData2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">readData2[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_b/resAlu" type="array">
+      <obj_property name="ElementShortName">resAlu[15:0]</obj_property>
+      <obj_property name="ObjectShortName">resAlu[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_b/bussr" type="array">
+      <obj_property name="ElementShortName">bussr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bussr[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

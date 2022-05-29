@@ -1,0 +1,1 @@
+-wto "95a1d2c0d96e47a6954fed18ad32c5bc" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "test_bech_procesador_behav" "xil_defaultlib.test_bech_procesador" -log "elaborate.log" 

@@ -1,0 +1,25 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sim_1/new/test_b.vhd,1611936666,vhdl,,,,test_b,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd,1611625267,vhdl,,,,alu_bit,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd,1611627334,vhdl,,,,alu_bits,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/archivoRegistros.vhd,1611636131,vhdl,,,,archivoregistros,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bandera_alu.vhd,1611590747,vhdl,,,,bandera_alu,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_condicion.vhd,1611630483,vhdl,,,,bloque_condicion,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_nivel.vhd,1611590695,vhdl,,,,bloque_nivel,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/carta_uc.vhd,1611590959,vhdl,,,,carta_uc,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/decodificador_instruccion.vhd,1611590633,vhdl,,,,decodificador_instruccion,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_direccion.vhd,1611587426,vhdl,,,,extensor_direccion,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_signo.vhd,1611587373,vhdl,,,,extensor_signo,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd,1611936554,vhdl,,,,procesador,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaDatos.vhd,1612331942,vhdl,,,,memoriadatos,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaPrograma.vhd,1612847799,vhdl,,,,memoriaprograma,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_funcion.vhd,1611621617,vhdl,,,,memoria_funcion,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_operacion.vhd,1611590896,vhdl,,,,memoria_operacion,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/package_components.vhd,1611635518,vhdl,C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd,,,paquete_procesador,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/paquete_alu.vhd,1611625597,vhdl,C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd,,,paquete_alu,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/paquete_uc.vhd,1611591354,vhdl,C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd,,,paquete_uc,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/pila.vhd,1611587138,vhdl,,,,pila,,,,,,,,
+C:/Users/sel19/Documents/desktop/cosas que debo subir a git con orden/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd,1611635464,vhdl,,,,uc,,,,,,,,

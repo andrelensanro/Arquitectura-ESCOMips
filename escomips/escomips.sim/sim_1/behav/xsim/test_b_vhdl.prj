@@ -1,0 +1,26 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../escomips.srcs/sources_1/new/alu_bit.vhd" \
+"../../../../escomips.srcs/sources_1/new/paquete_alu.vhd" \
+"../../../../escomips.srcs/sources_1/new/bandera_alu.vhd" \
+"../../../../escomips.srcs/sources_1/new/bloque_condicion.vhd" \
+"../../../../escomips.srcs/sources_1/new/bloque_nivel.vhd" \
+"../../../../escomips.srcs/sources_1/new/carta_uc.vhd" \
+"../../../../escomips.srcs/sources_1/new/decodificador_instruccion.vhd" \
+"../../../../escomips.srcs/sources_1/new/package_components.vhd" \
+"../../../../escomips.srcs/sources_1/new/memoria_funcion.vhd" \
+"../../../../escomips.srcs/sources_1/new/memoria_operacion.vhd" \
+"../../../../escomips.srcs/sources_1/new/paquete_uc.vhd" \
+"../../../../escomips.srcs/sources_1/new/main.vhd" \
+"../../../../escomips.srcs/sources_1/new/memoriaPrograma.vhd" \
+"../../../../escomips.srcs/sources_1/new/alu_bits.vhd" \
+"../../../../escomips.srcs/sources_1/new/pila.vhd" \
+"../../../../escomips.srcs/sources_1/new/archivoRegistros.vhd" \
+"../../../../escomips.srcs/sources_1/new/memoriaDatos.vhd" \
+"../../../../escomips.srcs/sources_1/new/uc.vhd" \
+"../../../../escomips.srcs/sources_1/new/extensor_signo.vhd" \
+"../../../../escomips.srcs/sources_1/new/extensor_direccion.vhd" \
+"../../../../escomips.srcs/sim_1/new/test_b.vhd" \
+
+# Do not sort compile order
+nosort

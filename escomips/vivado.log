@@ -1,0 +1,809 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jan 26 06:36:31 2021
+# Process ID: 1976
+# Current directory: C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10312 C:\Users\sel19\Documents\desktop\arqui\vivado\procesador_risc\escomips\escomips.xpr
+# Log file: C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/vivado.log
+# Journal file: C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 785.426 ; gain = 109.473
+add_files -norecurse C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Jan 26 06:38:12 2021] Launched synth_1...
+Run output will be captured here: C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.runs/synth_1/runme.log
+add_files -norecurse {C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaPrograma.vhd C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/pila.vhd C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/archivoRegistros.vhd C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaDatos.vhd C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_signo.vhd C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_direccion.vhd}
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Jan 26 06:41:52 2021] Launched synth_1...
+Run output will be captured here: C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim/simulate.log"
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Jan 26 06:43:55 2021] Launched synth_1...
+Run output will be captured here: C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim/simulate.log"
+close_project
+open_project C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_b' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_b_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'procesador'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xelab -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.paquete_procesador
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.paquete_uc
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.paquete_alu
+Compiling architecture behavioral of entity xil_defaultlib.memoriaPrograma [memoriaprograma_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoria_funcion [memoria_funcion_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoria_operacion [memoria_operacion_default]
+Compiling architecture behavioral of entity xil_defaultlib.decodificador_instruccion [decodificador_instruccion_defaul...]
+Compiling architecture behavioral of entity xil_defaultlib.bandera_alu [bandera_alu_default]
+Compiling architecture bahevioral of entity xil_defaultlib.bloque_condicion [bloque_condicion_default]
+Compiling architecture behavioral of entity xil_defaultlib.bloque_nivel [bloque_nivel_default]
+Compiling architecture behavioral of entity xil_defaultlib.carta_uc [carta_uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.uc [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.pila [pila_default]
+Compiling architecture behavioral of entity xil_defaultlib.archivoRegistros [archivoregistros_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_bit [alu_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_bits [alu_bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoriaDatos [memoriadatos_default]
+Compiling architecture behavioral of entity xil_defaultlib.extensor_signo [extensor_signo_default]
+Compiling architecture behavioral of entity xil_defaultlib.extensor_direccion [extensor_direccion_default]
+Compiling architecture behavioral of entity xil_defaultlib.procesador [procesador_default]
+Compiling architecture behavioral of entity xil_defaultlib.test_b
+Built simulation snapshot test_b_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 926.848 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_b_behav -key {Behavioral:sim_1:Functional:test_b} -tclbatch {test_b.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source test_b.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_b_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 926.848 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_b' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_b_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xelab -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_b_behav -key {Behavioral:sim_1:Functional:test_b} -tclbatch {test_b.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source test_b.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_b_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 926.848 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Jan 26 06:53:32 2021] Launched synth_1...
+Run output will be captured here: C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_b' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_b_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'procesador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sim_1/new/test_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test_b'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xelab -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.paquete_procesador
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.paquete_uc
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.paquete_alu
+Compiling architecture behavioral of entity xil_defaultlib.memoriaPrograma [memoriaprograma_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoria_funcion [memoria_funcion_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoria_operacion [memoria_operacion_default]
+Compiling architecture behavioral of entity xil_defaultlib.decodificador_instruccion [decodificador_instruccion_defaul...]
+Compiling architecture behavioral of entity xil_defaultlib.bandera_alu [bandera_alu_default]
+Compiling architecture bahevioral of entity xil_defaultlib.bloque_condicion [bloque_condicion_default]
+Compiling architecture behavioral of entity xil_defaultlib.bloque_nivel [bloque_nivel_default]
+Compiling architecture behavioral of entity xil_defaultlib.carta_uc [carta_uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.uc [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.pila [pila_default]
+Compiling architecture behavioral of entity xil_defaultlib.archivoRegistros [archivoregistros_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_bit [alu_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_bits [alu_bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoriaDatos [memoriadatos_default]
+Compiling architecture behavioral of entity xil_defaultlib.extensor_signo [extensor_signo_default]
+Compiling architecture behavioral of entity xil_defaultlib.extensor_direccion [extensor_direccion_default]
+Compiling architecture behavioral of entity xil_defaultlib.procesador [procesador_default]
+Compiling architecture behavioral of entity xil_defaultlib.test_b
+Built simulation snapshot test_b_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_b_behav -key {Behavioral:sim_1:Functional:test_b} -tclbatch {test_b.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source test_b.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_b_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 926.848 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_b' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_b_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'procesador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaDatos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'memoriaDatos'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sim_1/new/test_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test_b'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xelab -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3354] formal port 'aux_z3' of mode out cannot be associated with actual port 'aux_z3' of mode in [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sim_1/new/test_b.vhd:10]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit test_b in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Jan 26 07:14:46 2021] Launched synth_1...
+Run output will be captured here: C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_b' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_b_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sim_1/new/test_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test_b'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xelab -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.paquete_procesador
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.paquete_uc
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.paquete_alu
+Compiling architecture behavioral of entity xil_defaultlib.memoriaPrograma [memoriaprograma_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoria_funcion [memoria_funcion_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoria_operacion [memoria_operacion_default]
+Compiling architecture behavioral of entity xil_defaultlib.decodificador_instruccion [decodificador_instruccion_defaul...]
+Compiling architecture behavioral of entity xil_defaultlib.bandera_alu [bandera_alu_default]
+Compiling architecture bahevioral of entity xil_defaultlib.bloque_condicion [bloque_condicion_default]
+Compiling architecture behavioral of entity xil_defaultlib.bloque_nivel [bloque_nivel_default]
+Compiling architecture behavioral of entity xil_defaultlib.carta_uc [carta_uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.uc [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.pila [pila_default]
+Compiling architecture behavioral of entity xil_defaultlib.archivoRegistros [archivoregistros_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_bit [alu_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_bits [alu_bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoriaDatos [memoriadatos_default]
+Compiling architecture behavioral of entity xil_defaultlib.extensor_signo [extensor_signo_default]
+Compiling architecture behavioral of entity xil_defaultlib.extensor_direccion [extensor_direccion_default]
+Compiling architecture behavioral of entity xil_defaultlib.procesador [procesador_default]
+Compiling architecture behavioral of entity xil_defaultlib.test_b
+Built simulation snapshot test_b_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_b_behav -key {Behavioral:sim_1:Functional:test_b} -tclbatch {test_b.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source test_b.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_b_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 937.270 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_b' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_b_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'procesador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sim_1/new/test_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test_b'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xelab -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.paquete_procesador
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.paquete_uc
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.paquete_alu
+Compiling architecture behavioral of entity xil_defaultlib.memoriaPrograma [memoriaprograma_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoria_funcion [memoria_funcion_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoria_operacion [memoria_operacion_default]
+Compiling architecture behavioral of entity xil_defaultlib.decodificador_instruccion [decodificador_instruccion_defaul...]
+Compiling architecture behavioral of entity xil_defaultlib.bandera_alu [bandera_alu_default]
+Compiling architecture bahevioral of entity xil_defaultlib.bloque_condicion [bloque_condicion_default]
+Compiling architecture behavioral of entity xil_defaultlib.bloque_nivel [bloque_nivel_default]
+Compiling architecture behavioral of entity xil_defaultlib.carta_uc [carta_uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.uc [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.pila [pila_default]
+Compiling architecture behavioral of entity xil_defaultlib.archivoRegistros [archivoregistros_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_bit [alu_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_bits [alu_bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoriaDatos [memoriadatos_default]
+Compiling architecture behavioral of entity xil_defaultlib.extensor_signo [extensor_signo_default]
+Compiling architecture behavioral of entity xil_defaultlib.extensor_direccion [extensor_direccion_default]
+Compiling architecture behavioral of entity xil_defaultlib.procesador [procesador_default]
+Compiling architecture behavioral of entity xil_defaultlib.test_b
+Built simulation snapshot test_b_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_b_behav -key {Behavioral:sim_1:Functional:test_b} -tclbatch {test_b.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source test_b.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_b_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 937.270 ; gain = 0.000
+save_wave_config {C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/test_b_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/test_b_behav.wcfg
+set_property xsim.view C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/test_b_behav.wcfg [get_filesets sim_1]
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: procesador
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1443.461 ; gain = 232.551
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'procesador' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:18]
+	Parameter tamMem bound to: 9 - type: integer 
+	Parameter tamInst bound to: 25 - type: integer 
+INFO: [Synth 8-3491] module 'memoriaPrograma' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaPrograma.vhd:4' bound to instance 'unidad_programa' of component 'memoriaPrograma' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'memoriaPrograma' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaPrograma.vhd:13]
+	Parameter tamMem bound to: 9 - type: integer 
+	Parameter tamInst bound to: 25 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'memoriaPrograma' (1#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaPrograma.vhd:13]
+INFO: [Synth 8-3491] module 'uc' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:7' bound to instance 'unidad_uc' of component 'uc' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'uc' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:16]
+INFO: [Synth 8-3491] module 'memoria_funcion' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_funcion.vhd:9' bound to instance 'obj_memoriaFuncion' of component 'memoria_funcion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'memoria_funcion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_funcion.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'memoria_funcion' (2#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_funcion.vhd:16]
+INFO: [Synth 8-3491] module 'memoria_operacion' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_operacion.vhd:5' bound to instance 'obj_memoriaOperacion' of component 'memoria_operacion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'memoria_operacion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_operacion.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'memoria_operacion' (3#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_operacion.vhd:12]
+INFO: [Synth 8-3491] module 'decodificador_instruccion' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/decodificador_instruccion.vhd:4' bound to instance 'obj_decodificador' of component 'decodificador_instruccion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'decodificador_instruccion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/decodificador_instruccion.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'decodificador_instruccion' (4#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/decodificador_instruccion.vhd:12]
+INFO: [Synth 8-3491] module 'bandera_alu' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bandera_alu.vhd:4' bound to instance 'obj_flags_alu' of component 'bandera_alu' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'bandera_alu' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bandera_alu.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'bandera_alu' (5#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bandera_alu.vhd:13]
+INFO: [Synth 8-3491] module 'bloque_condicion' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_condicion.vhd:4' bound to instance 'obj_bloque_condicion' of component 'bloque_condicion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'bloque_condicion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_condicion.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'bloque_condicion' (6#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_condicion.vhd:12]
+INFO: [Synth 8-3491] module 'bloque_nivel' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_nivel.vhd:4' bound to instance 'obj_nivel' of component 'bloque_nivel' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'bloque_nivel' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_nivel.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'bloque_nivel' (7#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_nivel.vhd:11]
+INFO: [Synth 8-3491] module 'carta_uc' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/carta_uc.vhd:5' bound to instance 'obj_carta' of component 'carta_uc' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'carta_uc' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/carta_uc.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'carta_uc' (8#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/carta_uc.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'uc' (9#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:16]
+	Parameter n bound to: 3 - type: integer 
+	Parameter m bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'pila' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/pila.vhd:6' bound to instance 'unidad_pila' of component 'pila' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'pila' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/pila.vhd:18]
+	Parameter n bound to: 3 - type: integer 
+	Parameter m bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pila' (10#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/pila.vhd:18]
+INFO: [Synth 8-3491] module 'archivoRegistros' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/archivoRegistros.vhd:5' bound to instance 'unidad_registros' of component 'archivoRegistros' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'archivoRegistros' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/archivoRegistros.vhd:19]
+WARNING: [Synth 8-6014] Unused sequential element shifting_reg was removed.  [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/archivoRegistros.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'archivoRegistros' (11#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/archivoRegistros.vhd:19]
+	Parameter d bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'alu_bits' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:7' bound to instance 'unidad_alu' of component 'alu_bits' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'alu_bits' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:19]
+	Parameter d bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'alu_bit' (12#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:17]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'alu_bits' (13#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:19]
+	Parameter tamMem bound to: 9 - type: integer 
+	Parameter tamDato bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'memoriaDatos' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaDatos.vhd:6' bound to instance 'unidad_datos' of component 'memoriaDatos' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'memoriaDatos' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaDatos.vhd:19]
+	Parameter tamMem bound to: 9 - type: integer 
+	Parameter tamDato bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'memoriaDatos' (14#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaDatos.vhd:19]
+INFO: [Synth 8-3491] module 'extensor_signo' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_signo.vhd:4' bound to instance 'unidad_extSigno' of component 'extensor_signo' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'extensor_signo' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_signo.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'extensor_signo' (15#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_signo.vhd:11]
+INFO: [Synth 8-3491] module 'extensor_direccion' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_direccion.vhd:3' bound to instance 'unidad_extDirec' of component 'extensor_direccion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'extensor_direccion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_direccion.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'extensor_direccion' (16#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_direccion.vhd:9]
+WARNING: [Synth 8-6014] Unused sequential element rclr_reg was removed.  [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'procesador' (17#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:18]
+WARNING: [Synth 8-3331] design carta_uc has unconnected port clk
+WARNING: [Synth 8-3331] design carta_uc has unconnected port clr
+WARNING: [Synth 8-3331] design bloque_condicion has unconnected port flags_alu[2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1500.289 ; gain = 289.379
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1500.289 ; gain = 289.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1500.289 ; gain = 289.379
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1500.289 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1616.750 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 1620.066 ; gain = 409.156
+69 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 1620.066 ; gain = 682.797
+write_schematic -format pdf -orientation portrait -force C:/Users/sel19/Desktop/schematic.pdf
+C:/Users/sel19/Desktop/schematic.pdf
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1709.211 ; gain = 38.996
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'procesador' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:18]
+	Parameter tamMem bound to: 9 - type: integer 
+	Parameter tamInst bound to: 25 - type: integer 
+INFO: [Synth 8-3491] module 'memoriaPrograma' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaPrograma.vhd:4' bound to instance 'unidad_programa' of component 'memoriaPrograma' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'memoriaPrograma' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaPrograma.vhd:13]
+	Parameter tamMem bound to: 9 - type: integer 
+	Parameter tamInst bound to: 25 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'memoriaPrograma' (1#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaPrograma.vhd:13]
+INFO: [Synth 8-3491] module 'uc' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:7' bound to instance 'unidad_uc' of component 'uc' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'uc' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:16]
+INFO: [Synth 8-3491] module 'memoria_funcion' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_funcion.vhd:9' bound to instance 'obj_memoriaFuncion' of component 'memoria_funcion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'memoria_funcion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_funcion.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'memoria_funcion' (2#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_funcion.vhd:16]
+INFO: [Synth 8-3491] module 'memoria_operacion' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_operacion.vhd:5' bound to instance 'obj_memoriaOperacion' of component 'memoria_operacion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'memoria_operacion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_operacion.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'memoria_operacion' (3#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoria_operacion.vhd:12]
+INFO: [Synth 8-3491] module 'decodificador_instruccion' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/decodificador_instruccion.vhd:4' bound to instance 'obj_decodificador' of component 'decodificador_instruccion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'decodificador_instruccion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/decodificador_instruccion.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'decodificador_instruccion' (4#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/decodificador_instruccion.vhd:12]
+INFO: [Synth 8-3491] module 'bandera_alu' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bandera_alu.vhd:4' bound to instance 'obj_flags_alu' of component 'bandera_alu' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'bandera_alu' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bandera_alu.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'bandera_alu' (5#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bandera_alu.vhd:13]
+INFO: [Synth 8-3491] module 'bloque_condicion' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_condicion.vhd:4' bound to instance 'obj_bloque_condicion' of component 'bloque_condicion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'bloque_condicion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_condicion.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'bloque_condicion' (6#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_condicion.vhd:12]
+INFO: [Synth 8-3491] module 'bloque_nivel' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_nivel.vhd:4' bound to instance 'obj_nivel' of component 'bloque_nivel' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'bloque_nivel' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_nivel.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'bloque_nivel' (7#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/bloque_nivel.vhd:11]
+INFO: [Synth 8-3491] module 'carta_uc' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/carta_uc.vhd:5' bound to instance 'obj_carta' of component 'carta_uc' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'carta_uc' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/carta_uc.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'carta_uc' (8#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/carta_uc.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'uc' (9#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/uc.vhd:16]
+	Parameter n bound to: 3 - type: integer 
+	Parameter m bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'pila' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/pila.vhd:6' bound to instance 'unidad_pila' of component 'pila' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'pila' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/pila.vhd:18]
+	Parameter n bound to: 3 - type: integer 
+	Parameter m bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pila' (10#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/pila.vhd:18]
+INFO: [Synth 8-3491] module 'archivoRegistros' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/archivoRegistros.vhd:5' bound to instance 'unidad_registros' of component 'archivoRegistros' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'archivoRegistros' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/archivoRegistros.vhd:19]
+WARNING: [Synth 8-6014] Unused sequential element shifting_reg was removed.  [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/archivoRegistros.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'archivoRegistros' (11#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/archivoRegistros.vhd:19]
+	Parameter d bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'alu_bits' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:7' bound to instance 'unidad_alu' of component 'alu_bits' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'alu_bits' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:19]
+	Parameter d bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'alu_bit' (12#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:17]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-3491] module 'alu_bit' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bit.vhd:4' bound to instance 'alu_1' of component 'alu_bit' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'alu_bits' (13#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/alu_bits.vhd:19]
+	Parameter tamMem bound to: 9 - type: integer 
+	Parameter tamDato bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'memoriaDatos' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaDatos.vhd:6' bound to instance 'unidad_datos' of component 'memoriaDatos' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'memoriaDatos' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaDatos.vhd:19]
+	Parameter tamMem bound to: 9 - type: integer 
+	Parameter tamDato bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'memoriaDatos' (14#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaDatos.vhd:19]
+INFO: [Synth 8-3491] module 'extensor_signo' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_signo.vhd:4' bound to instance 'unidad_extSigno' of component 'extensor_signo' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'extensor_signo' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_signo.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'extensor_signo' (15#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_signo.vhd:11]
+INFO: [Synth 8-3491] module 'extensor_direccion' declared at 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_direccion.vhd:3' bound to instance 'unidad_extDirec' of component 'extensor_direccion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'extensor_direccion' [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_direccion.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'extensor_direccion' (16#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/extensor_direccion.vhd:9]
+WARNING: [Synth 8-6014] Unused sequential element rclr_reg was removed.  [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'procesador' (17#1) [C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/main.vhd:18]
+WARNING: [Synth 8-3331] design carta_uc has unconnected port clk
+WARNING: [Synth 8-3331] design carta_uc has unconnected port clr
+WARNING: [Synth 8-3331] design bloque_condicion has unconnected port flags_alu[2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1753.816 ; gain = 83.602
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1772.730 ; gain = 102.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1772.730 ; gain = 102.516
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1772.730 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 1843.723 ; gain = 173.508
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Jan 26 08:43:54 2021] Launched synth_1...
+Run output will be captured here: C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_b' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj test_b_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.srcs/sources_1/new/memoriaPrograma.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'memoriaPrograma'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+"xelab -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 95a1d2c0d96e47a6954fed18ad32c5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_b_behav xil_defaultlib.test_b -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.paquete_procesador
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.paquete_uc
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.paquete_alu
+Compiling architecture behavioral of entity xil_defaultlib.memoriaPrograma [memoriaprograma_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoria_funcion [memoria_funcion_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoria_operacion [memoria_operacion_default]
+Compiling architecture behavioral of entity xil_defaultlib.decodificador_instruccion [decodificador_instruccion_defaul...]
+Compiling architecture behavioral of entity xil_defaultlib.bandera_alu [bandera_alu_default]
+Compiling architecture bahevioral of entity xil_defaultlib.bloque_condicion [bloque_condicion_default]
+Compiling architecture behavioral of entity xil_defaultlib.bloque_nivel [bloque_nivel_default]
+Compiling architecture behavioral of entity xil_defaultlib.carta_uc [carta_uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.uc [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.pila [pila_default]
+Compiling architecture behavioral of entity xil_defaultlib.archivoRegistros [archivoregistros_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_bit [alu_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_bits [alu_bits_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoriaDatos [memoriadatos_default]
+Compiling architecture behavioral of entity xil_defaultlib.extensor_signo [extensor_signo_default]
+Compiling architecture behavioral of entity xil_defaultlib.extensor_direccion [extensor_direccion_default]
+Compiling architecture behavioral of entity xil_defaultlib.procesador [procesador_default]
+Compiling architecture behavioral of entity xil_defaultlib.test_b
+Built simulation snapshot test_b_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1867.793 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/escomips.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_b_behav -key {Behavioral:sim_1:Functional:test_b} -tclbatch {test_b.tcl} -view {C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/test_b_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+open_wave_config C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/test_b_behav.wcfg
+source test_b.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_b_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:23 . Memory (MB): peak = 1867.793 ; gain = 0.000
+save_wave_config {C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/test_b_behav.wcfg}
+save_wave_config {C:/Users/sel19/Documents/desktop/arqui/vivado/procesador_risc/escomips/test_b_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 26 09:22:20 2021...

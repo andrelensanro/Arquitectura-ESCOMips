@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Jan 24 14:27:48 2021
+# Process ID: 2364
+# Current directory: C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.sim/sim_1/behav/xsim/xsim.dir/tb_main_unidad_control_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.sim/sim_1/behav/xsim/xsim.dir/tb_main_unidad_control_behav/webtalk/xsim_webtalk.tcl -notrace

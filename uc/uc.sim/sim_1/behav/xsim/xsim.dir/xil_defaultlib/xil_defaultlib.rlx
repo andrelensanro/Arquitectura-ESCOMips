@@ -1,0 +1,14 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.srcs/sim_1/new/tb_unidad_control.vhd,1611520909,vhdl,,,,tb_main_unidad_control,,,,,,,,
+C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.srcs/sources_1/imports/new/bloque_nivel.vhd,1611284824,vhdl,,,,bloque_nivel,,,,,,,,
+C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.srcs/sources_1/imports/new/cartaasm_unidadcontrol.vhd,1611286945,vhdl,,,,carta_asm_uc,,,,,,,,
+C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.srcs/sources_1/imports/new/memoria_codigo_funcion.vhd,1611289855,vhdl,,,,memoria_codigo_funcion,,,,,,,,
+C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.srcs/sources_1/new/bandera_alu.vhd,1611286734,vhdl,,,,bandera_alu,,,,,,,,
+C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.srcs/sources_1/new/bloque_condicion.vhd,1611286160,vhdl,,,,bloque_condicion,,,,,,,,
+C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.srcs/sources_1/new/components.vhd,1611245485,vhdl,C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.srcs/sources_1/new/main.vhd,,,components,,,,,,,,
+C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.srcs/sources_1/new/decodificador_instruccion.vhd,1611246302,vhdl,,,,decodificador_instruccion,,,,,,,,
+C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.srcs/sources_1/new/main.vhd,1611518895,vhdl,,,,main,,,,,,,,
+C:/Users/sel19/Documents/desktop/arquitecturaComputadoras/vivado/unidad_control_process_reloj_correcto/unidad_control_components.srcs/sources_1/new/memoria_codigo_operacion.vhd,1611290064,vhdl,,,,memoria_codigo_operacion,,,,,,,,

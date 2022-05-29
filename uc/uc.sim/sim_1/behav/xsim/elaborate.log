@@ -1,0 +1,26 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 259eec769ac745fab4534df63e1b8c6e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_main_unidad_control_behav xil_defaultlib.tb_main_unidad_control -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.components
+Compiling architecture behavioral of entity xil_defaultlib.memoria_codigo_funcion [memoria_codigo_funcion_default]
+Compiling architecture behavioral of entity xil_defaultlib.memoria_codigo_operacion [memoria_codigo_operacion_default]
+Compiling architecture behavioral of entity xil_defaultlib.decodificador_instruccion [decodificador_instruccion_defaul...]
+Compiling architecture behavioral of entity xil_defaultlib.bandera_alu [bandera_alu_default]
+Compiling architecture bahevioral of entity xil_defaultlib.bloque_condicion [bloque_condicion_default]
+Compiling architecture behavioral of entity xil_defaultlib.bloque_nivel [bloque_nivel_default]
+Compiling architecture behavioral of entity xil_defaultlib.carta_asm_uc [carta_asm_uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.main [main_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_main_unidad_control
+Built simulation snapshot tb_main_unidad_control_behav
